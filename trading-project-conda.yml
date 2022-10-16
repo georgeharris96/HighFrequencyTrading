@@ -1,0 +1,24 @@
+name: trading-system
+channels:
+  - apple
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip>=19.0
+  - jupyter
+  - tensorflow-deps
+  - scikit-learn
+  - scipy
+  - pandas
+  - matplotlib
+  - tqdm
+  - requests
+  - h5py
+  - ipykernel
+  - wandb
+  - seaborn
+  - pip:
+      - tensorflow-macos
+      - tensorflow-metal
+      - bayesian-optization
+      - quandl
